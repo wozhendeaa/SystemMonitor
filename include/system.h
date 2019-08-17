@@ -21,11 +21,12 @@ class System {
   // TODO: Define any necessary private members
  private:
     //0 is the aggregate cpu info
-    static bool b_initialized;
     std::vector<Processor> cpus_ = {};
     std::vector<Process> processes_ = {};
 
 
 };
+
+
 
 #endif

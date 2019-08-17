@@ -18,7 +18,6 @@ using std::string;
 using std::vector;
 using namespace LinuxParser;
 
-bool System::b_initialized = false;
 
 // TODO: Return the system's CPU
 Processor& System::AggregateCpu() {
@@ -28,28 +27,22 @@ Processor& System::AggregateCpu() {
 int System::GetCoreCount()  {
     ifstream stream(kProcDirectory + kStatFilename);
     std::string line;
+    cpus_.clear();
     if (stream.is_open()) {
         while (getline(stream, line)) {
             std::string temp;
             float time = 0;
+            int core_index = 0;
             std::istringstream ss(line);
             ss >> temp;
             if (temp.substr(0, 3) != "cpu") break;
-            int count = 0;
+            Processor p;
             while (ss >> temp) {
-                time += std::strtof(temp.c_str(), nullptr);
-                count += temp == "0"? 0 : 1;
+                int t = std::atoi(temp.c_str());
+                p.vals.push_back(t);
             }
-            time = time / count;
-            if (b_initialized) {
-                cpus_[count - 1].utilization_val = time;
-            } else {
-                Processor p;
-                p.utilization_val = time;
-                cpus_.push_back(p);
-            }
+            cpus_.push_back(p);
         }
-        b_initialized = true;
     }
     return cpus_.size() - 1;
 }
@@ -100,10 +93,11 @@ float System::MemoryUtilization() {
     if (!vals.empty()) {
         float mem_total = vals[0];
         float mem_free = vals[1];
+        float mem_available = vals[2];
         float mem_buffers = vals[3];
 
-        float used = mem_total - mem_free;
-        utilization = (used + mem_buffers) / mem_total;
+        float used = mem_total - mem_free - mem_available;
+        utilization = (used ) / mem_total;
     }
     is.close();
 
@@ -174,9 +168,8 @@ long int System::UpTime() {
         int end = line.find(' ');
         auto start = std::atoll(line.substr(0, end).c_str());
         auto now = std::atoll(line.substr(end + 1).c_str());
-        result = now - start;
+        result = start;
     }
-    is.close();
     return result;
 }
 
