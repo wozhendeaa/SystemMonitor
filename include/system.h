@@ -3,29 +3,29 @@
 
 #include <string>
 #include <vector>
-#include <regex>
 #include "process.h"
 #include "processor.h"
-
 class System {
  public:
-  Processor& Cpu();                   // TODO: See src/system.cpp
-  std::vector<Process>& Processes();  // TODO: See src/system.cpp
-  float MemoryUtilization();          // TODO: See src/system.cpp
-  long UpTime();                      // TODO: See src/system.cpp
-  int TotalProcesses();               // TODO: See src/system.cpp
-  int RunningProcesses();             // TODO: See src/system.cpp
-  std::string Kernel();               // TODO: See src/system.cpp
-  std::string OperatingSystem();      // TODO: See src/system.cpp
+    Processor& AggregateCpu();
+    int GetCoreCount() ;
+    Processor& GetCpu(int i);                   // TODO: See src/system.cpp
+    std::vector<Process>& Processes();  // TODO: See src/system.cpp
+    float MemoryUtilization();          // TODO: See src/system.cpp
+    long UpTime();                      // TODO: See src/system.cpp
+    int TotalProcesses();
+    int RunningProcesses();
+    std::string Kernel();
+    std::string OperatingSystem();
 
   // TODO: Define any necessary private members
  private:
-  Processor cpu_ = {};
-  std::vector<Process> processes_ = {};
+    //0 is the aggregate cpu info
+    static bool b_initialized;
+    std::vector<Processor> cpus_ = {};
+    std::vector<Process> processes_ = {};
 
-  bool GetMatch(std::regex* reg,
-                std::string str,
-                std::smatch& match);
+
 };
 
 #endif

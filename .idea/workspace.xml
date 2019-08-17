@@ -11,14 +11,44 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9699ecd3-9bdd-4c9b-8588-b91b39c8a4f9" name="Default Changelist" comment="">
+    <list default="true" id="9699ecd3-9bdd-4c9b-8588-b91b39c8a4f9" name="Default Changelist" comment="adding cpu info and utility class">
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/Utility.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Utility.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utility.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/processor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/processor.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/system.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/system.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/monitor" beforeDir="false" afterPath="$PROJECT_DIR$/build/monitor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monitor.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monitor.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/processor.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/processor.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/system.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/system.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ncurses_display.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ncurses_display.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/processor.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/system.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/system.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,9 +78,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1PWpnirPLq8wSaJrSl8BQPBiKFs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.advertisement.text.has.clang-format" value="true" />
@@ -83,7 +117,7 @@
     </configuration>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -94,7 +128,7 @@
       <updated>1565999875597</updated>
       <workItem from="1565999878765" duration="10175000" />
       <workItem from="1566024780932" duration="2225000" />
-      <workItem from="1566027021356" duration="1000000" />
+      <workItem from="1566027021356" duration="9783000" />
     </task>
     <servers />
   </component>
@@ -113,5 +147,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="adding cpu info and utility class" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding cpu info and utility class" />
   </component>
 </project>

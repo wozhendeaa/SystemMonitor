@@ -57,9 +57,22 @@ include CMakeFiles/monitor.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/monitor.dir/flags.make
 
+CMakeFiles/monitor.dir/src/Utility.cpp.o: CMakeFiles/monitor.dir/flags.make
+CMakeFiles/monitor.dir/src/Utility.cpp.o: ../src/Utility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/monitor.dir/src/Utility.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/Utility.cpp.o -c /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/Utility.cpp
+
+CMakeFiles/monitor.dir/src/Utility.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/Utility.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/Utility.cpp > CMakeFiles/monitor.dir/src/Utility.cpp.i
+
+CMakeFiles/monitor.dir/src/Utility.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/Utility.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/Utility.cpp -o CMakeFiles/monitor.dir/src/Utility.cpp.s
+
 CMakeFiles/monitor.dir/src/format.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/format.cpp.o: ../src/format.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/monitor.dir/src/format.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/monitor.dir/src/format.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/format.cpp.o -c /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/format.cpp
 
 CMakeFiles/monitor.dir/src/format.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/monitor.dir/src/format.cpp.s: cmake_force
 
 CMakeFiles/monitor.dir/src/linux_parser.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/linux_parser.cpp.o: ../src/linux_parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/linux_parser.cpp.o -c /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp
 
 CMakeFiles/monitor.dir/src/linux_parser.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/monitor.dir/src/linux_parser.cpp.s: cmake_force
 
 CMakeFiles/monitor.dir/src/main.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/monitor.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/monitor.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/main.cpp.o -c /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/main.cpp
 
 CMakeFiles/monitor.dir/src/main.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/monitor.dir/src/main.cpp.s: cmake_force
 
 CMakeFiles/monitor.dir/src/ncurses_display.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/ncurses_display.cpp.o: ../src/ncurses_display.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/ncurses_display.cpp.o -c /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/ncurses_display.cpp
 
 CMakeFiles/monitor.dir/src/ncurses_display.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/monitor.dir/src/ncurses_display.cpp.s: cmake_force
 
 CMakeFiles/monitor.dir/src/process.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/process.cpp.o: ../src/process.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/monitor.dir/src/process.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/monitor.dir/src/process.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/process.cpp.o -c /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/process.cpp
 
 CMakeFiles/monitor.dir/src/process.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/monitor.dir/src/process.cpp.s: cmake_force
 
 CMakeFiles/monitor.dir/src/processor.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/processor.cpp.o: ../src/processor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/monitor.dir/src/processor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/monitor.dir/src/processor.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/processor.cpp.o -c /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/processor.cpp
 
 CMakeFiles/monitor.dir/src/processor.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/monitor.dir/src/processor.cpp.s: cmake_force
 
 CMakeFiles/monitor.dir/src/system.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/system.cpp.o: ../src/system.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/monitor.dir/src/system.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/monitor.dir/src/system.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/system.cpp.o -c /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/system.cpp
 
 CMakeFiles/monitor.dir/src/system.cpp.i: cmake_force
@@ -150,6 +163,7 @@ CMakeFiles/monitor.dir/src/system.cpp.s: cmake_force
 
 # Object files for target monitor
 monitor_OBJECTS = \
+"CMakeFiles/monitor.dir/src/Utility.cpp.o" \
 "CMakeFiles/monitor.dir/src/format.cpp.o" \
 "CMakeFiles/monitor.dir/src/linux_parser.cpp.o" \
 "CMakeFiles/monitor.dir/src/main.cpp.o" \
@@ -161,6 +175,7 @@ monitor_OBJECTS = \
 # External object files for target monitor
 monitor_EXTERNAL_OBJECTS =
 
+monitor: CMakeFiles/monitor.dir/src/Utility.cpp.o
 monitor: CMakeFiles/monitor.dir/src/format.cpp.o
 monitor: CMakeFiles/monitor.dir/src/linux_parser.cpp.o
 monitor: CMakeFiles/monitor.dir/src/main.cpp.o
@@ -172,7 +187,7 @@ monitor: CMakeFiles/monitor.dir/build.make
 monitor: /usr/lib/x86_64-linux-gnu/libcurses.so
 monitor: /usr/lib/x86_64-linux-gnu/libform.so
 monitor: CMakeFiles/monitor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable monitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable monitor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monitor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,12 +1,16 @@
 #ifndef PROCESSOR_H
 #define PROCESSOR_H
+#include <vector>
+#include <fstream>
+using std::ifstream;
 
 class Processor {
  public:
-  float Utilization();  // TODO: See src/processor.cpp
-
-  // TODO: Declare any necessary private members
+    float Utilization();
  private:
+    friend class System;
+    float utilization_val {0.f};
+
 };
 
 #endif

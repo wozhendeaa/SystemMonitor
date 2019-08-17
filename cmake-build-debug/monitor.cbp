@@ -86,6 +86,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/include/Utility.h">
+			<Option target="monitor"/>
+		</Unit>
+		<Unit filename="/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/Utility.cpp">
+			<Option target="monitor"/>
+		</Unit>
 		<Unit filename="/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/format.cpp">
 			<Option target="monitor"/>
 		</Unit>

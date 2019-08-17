@@ -32,14 +32,22 @@ void NCursesDisplay::DisplaySystem(System& system, WINDOW* window) {
   int row{0};
   mvwprintw(window, ++row, 2, ("OS: " + system.OperatingSystem()).c_str());
   mvwprintw(window, ++row, 2, ("Kernel: " + system.Kernel()).c_str());
-  mvwprintw(window, ++row, 2, "CPU: ");
-  wattron(window, COLOR_PAIR(1));
-  mvwprintw(window, row, 10, "");
-  wprintw(window, ProgressBar(system.Cpu().Utilization()).c_str());
-  wattroff(window, COLOR_PAIR(1));
+
+    int core_count = system.GetCoreCount();
+    //starts at 1 because 0 is aggregate cpu info
+    for (int i = 1; i <= core_count; ++i) {
+        string label = "CPU";
+        label += std::to_string(i - 1);
+        label += ":";
+        mvwprintw(window, ++row, 2, label.c_str());
+        wprintw(window, ProgressBar(system.GetCpu(i).Utilization()).c_str());
+    }
+    wattroff(window, COLOR_PAIR(2));
+
   mvwprintw(window, ++row, 2, "Memory: ");
   wattron(window, COLOR_PAIR(1));
   mvwprintw(window, row, 10, "");
+
   wprintw(window, ProgressBar(system.MemoryUtilization()).c_str());
   wattroff(window, COLOR_PAIR(1));
   mvwprintw(window, ++row, 2,
@@ -89,9 +97,9 @@ void NCursesDisplay::Display(System& system, int n) {
   start_color();  // enable color
 
   int x_max{getmaxx(stdscr)};
-  WINDOW* system_window = newwin(9, x_max - 1, 0, 0);
+  WINDOW* system_window = newwin(8 + system.GetCoreCount(), x_max - 1, 0, 0);
   WINDOW* process_window =
-      newwin(3 + n, x_max - 1, system_window->_maxy + 1, 0);
+      newwin(3 + n, x_max - 1, system_window->_maxy + 11, 0);
 
   while (1) {
     init_pair(1, COLOR_BLUE, COLOR_BLACK);
