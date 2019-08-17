@@ -27,6 +27,7 @@ CMakeFiles/monitor.dir/src/processor.cpp.o
  ../include/processor.h
  /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/processor.cpp
 CMakeFiles/monitor.dir/src/system.cpp.o
+ ../include/linux_parser.h
  ../include/process.h
  ../include/processor.h
  ../include/system.h
