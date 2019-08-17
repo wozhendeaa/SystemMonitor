@@ -2,7 +2,7 @@
 // Created by waynre on 8/17/19.
 //
 #include "Utility.h"
-
+bool Utility::b_initialized = false;
 
 bool Utility::GetMatch(std::regex *reg, const std::string str, std::smatch &match) {
     bool rs = false;
@@ -14,3 +14,4 @@ bool Utility::GetMatch(std::regex *reg, const std::string str, std::smatch &matc
     }
     return rs;
 }
+

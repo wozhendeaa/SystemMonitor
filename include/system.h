@@ -5,6 +5,8 @@
 #include <vector>
 #include "process.h"
 #include "processor.h"
+#include "Utility.h"
+
 class System {
  public:
     Processor& AggregateCpu();

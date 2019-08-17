@@ -8,6 +8,7 @@
 
 class Utility {
 public:
+    static bool b_initialized;
     static bool GetMatch(std::regex* reg,
                          const std::string str,
                            std::smatch& match);

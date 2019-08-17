@@ -6,11 +6,23 @@
 
 #IncludeRegexTransform: 
 
-../include/linux_parser.h
-fstream
--
+../include/Utility.h
 regex
 -
+
+../include/format.h
+string
+-
+
+../include/ncurses_display.h
+curses.h
+-
+process.h
+../include/process.h
+system.h
+../include/system.h
+
+../include/process.h
 string
 -
 
@@ -20,9 +32,35 @@ vector
 fstream
 -
 
-/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/processor.cpp
+../include/system.h
+string
+-
+vector
+-
+process.h
+../include/process.h
 processor.h
-/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/processor.h
-linux_parser.h
-/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/linux_parser.h
+../include/processor.h
+Utility.h
+../include/Utility.h
+
+/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/ncurses_display.cpp
+curses.h
+-
+chrono
+-
+string
+-
+thread
+-
+vector
+-
+Utility.h
+-
+format.h
+/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/format.h
+ncurses_display.h
+/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/ncurses_display.h
+system.h
+/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/system.h
 

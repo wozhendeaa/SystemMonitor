@@ -22,13 +22,17 @@ using std::ifstream;
 
 class Processor {
  public:
+    Processor();
     float Utilization();
- private:
+    void CopyVals();
+    void SetVal(int i, int v);
+    int GetVal(int i) const;
+private:
     float TotalTimeSinceBoot();
     float IdleSinceBoot();
     float TotalUsageSinceBoot();
     float TotalPercentage();
-    friend class System;
+    std::vector<int> prev_vals;
     std::vector<int> vals;
 };
 

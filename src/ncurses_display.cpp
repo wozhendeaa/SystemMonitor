@@ -3,6 +3,7 @@
 #include <string>
 #include <thread>
 #include <vector>
+#include <Utility.h>
 
 #include "format.h"
 #include "ncurses_display.h"
@@ -23,9 +24,15 @@ std::string NCursesDisplay::ProgressBar(float percent) {
   }
 
   string display{to_string(percent * 100).substr(0, 4)};
-  if (percent < 0.1 || percent == 1.0)
-    display = " " + to_string(percent * 100).substr(0, 3);
-  return display + "%" + bar + display + "/100%%";
+  if (percent < 0.1 || percent == 1.0) {
+      display = " " + to_string(percent * 100).substr(0, 3);
+  }
+    std::stringstream ss;
+    string percentage_str = to_string(percent * 100);
+    int end_index = percentage_str.find(".");
+    string sum = percentage_str.substr(0, end_index);
+    ss << sum <<  "%" << bar;
+    return ss.str();
 }
 
 void NCursesDisplay::DisplaySystem(System& system, WINDOW* window) {
@@ -37,10 +44,11 @@ void NCursesDisplay::DisplaySystem(System& system, WINDOW* window) {
     //starts at 1 because 0 is aggregate cpu info
     for (int i = 1; i <= core_count; ++i) {
         string label = "CPU";
-        label += std::to_string(i - 1);
+        label += std::to_string(i);
         label += ":";
         mvwprintw(window, ++row, 2, label.c_str());
-        wprintw(window, ProgressBar(system.GetCpu(i).Utilization()).c_str());
+        float temp = system.GetCpu(i).Utilization();
+        wprintw(window, ProgressBar(temp).c_str());
     }
     wattroff(window, COLOR_PAIR(2));
 

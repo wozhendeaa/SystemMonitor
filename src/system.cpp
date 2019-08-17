@@ -25,25 +25,37 @@ Processor& System::AggregateCpu() {
 }
 
 int System::GetCoreCount()  {
+
     ifstream stream(kProcDirectory + kStatFilename);
     std::string line;
-    cpus_.clear();
+    int core_index = 0;
     if (stream.is_open()) {
         while (getline(stream, line)) {
             std::string temp;
-            float time = 0;
-            int core_index = 0;
             std::istringstream ss(line);
             ss >> temp;
             if (temp.substr(0, 3) != "cpu") break;
-            Processor p;
-            while (ss >> temp) {
-                int t = std::atoi(temp.c_str());
-                p.vals.push_back(t);
+
+            if (Utility::b_initialized) {
+                int index = 0;
+                cpus_[core_index].CopyVals();
+                while (ss >> temp) {
+                    int t = std::atoi(temp.c_str());
+                    cpus_[core_index].SetVal(index++, t);
+                }
+            } else {
+                Processor p;
+                int index = 0;
+                while (ss >> temp) {
+                    int t = std::atoi(temp.c_str());
+                    p.SetVal(index++, t);
+                }
+                cpus_.push_back(p);
             }
-            cpus_.push_back(p);
+            core_index++;
         }
     }
+    Utility::b_initialized = true;
     return cpus_.size() - 1;
 }
 

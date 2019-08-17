@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/Utility.h
+regex
+-
+
 ../include/linux_parser.h
 fstream
 -
@@ -19,6 +23,10 @@ string
 -
 
 ../include/processor.h
+vector
+-
+fstream
+-
 
 ../include/system.h
 string
@@ -29,18 +37,8 @@ process.h
 ../include/process.h
 processor.h
 ../include/processor.h
-
-/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp
-dirent.h
--
-unistd.h
--
-string
--
-vector
--
-linux_parser.h
-/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/linux_parser.h
+Utility.h
+../include/Utility.h
 
 /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/system.cpp
 unistd.h
@@ -67,4 +65,6 @@ system.h
 /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/system.h
 linux_parser.h
 /home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/linux_parser.h
+Utility.h
+/home/waynre/CLionProjects/CppND-System-Monitor-Project-Updated/src/Utility.h
 
