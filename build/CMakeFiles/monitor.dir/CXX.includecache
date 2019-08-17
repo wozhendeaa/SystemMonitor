@@ -25,6 +25,8 @@ string
 -
 vector
 -
+regex
+-
 process.h
 ../include/process.h
 processor.h

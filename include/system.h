@@ -3,7 +3,7 @@
 
 #include <string>
 #include <vector>
-
+#include <regex>
 #include "process.h"
 #include "processor.h"
 
@@ -22,6 +22,10 @@ class System {
  private:
   Processor cpu_ = {};
   std::vector<Process> processes_ = {};
+
+  bool GetMatch(std::regex* reg,
+                std::string str,
+                std::smatch& match);
 };
 
 #endif
