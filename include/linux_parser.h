@@ -16,16 +16,9 @@ const std::string kUptimeFilename{"/uptime"};
 const std::string kMeminfoFilename{"/meminfo"};
 const std::string kVersionFilename{"/version"};
 const std::string kOSPath{"/etc/os-release"};
-const std::string kPasswordPath{"/etc/passwd"};
+const std::string kPassword{"/etc/passwd"};
 
-// System
-float MemoryUtilization();
-long UpTime();
 std::vector<int> Pids();
-int TotalProcesses();
-int RunningProcesses();
-std::string OperatingSystem();
-std::string Kernel();
 
 // CPU
 enum CPUStates {
@@ -40,18 +33,21 @@ enum CPUStates {
   kGuest_,
   kGuestNice_
 };
-std::vector<std::string> CpuUtilization();
-long Jiffies();
-long ActiveJiffies();
-long ActiveJiffies(int pid);
-long IdleJiffies();
+
+enum ProcessData {
+    UTIME = 14,
+    STIME,
+    CUTIME,
+    CSTIME,
+    STARTTIME = 22
+};
+
+//system
+long UpTime();
 
 // Processes
-std::string Command(int pid);
-std::string Ram(int pid);
 std::string Uid(int pid);
 std::string User(int pid);
-long int UpTime(int pid);
-};  // namespace LinuxParser
+};
 
 #endif

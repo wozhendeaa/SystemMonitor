@@ -1,5 +1,6 @@
 #include "processor.h"
 #include "linux_parser.h"
+
 enum ProcessorNumber {
     USER = 0,
     NICE,
@@ -23,7 +24,6 @@ Processor::Processor() {
     vals.resize(10, 0);
 }
 
-// TODO: Return the aggregate CPU utilization
 float Processor::Utilization() {
     float utilization_val = TotalPercentage();
     return utilization_val;

@@ -11,31 +11,39 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9699ecd3-9bdd-4c9b-8588-b91b39c8a4f9" name="Default Changelist" comment="CPU utilization">
+    <list default="true" id="9699ecd3-9bdd-4c9b-8588-b91b39c8a4f9" name="Default Changelist" comment="everything is working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/Utility.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/Utility.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/linux_parser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/linux_parser.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/process.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/process.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/processor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/processor.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/system.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/monitor.dir/src/system.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/monitor" beforeDir="false" afterPath="$PROJECT_DIR$/build/monitor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/format.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/format.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/linux_parser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/linux_parser.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/process.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/process.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/processor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/processor.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/system.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/monitor.dir/src/system.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/monitor" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monitor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/Utility.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Utility.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/processor.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/processor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/linux_parser.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/linux_parser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/process.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/process.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/system.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/system.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linux_parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/linux_parser.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ncurses_display.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ncurses_display.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/process.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/process.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/processor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/processor.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/system.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/system.cpp" afterDir="false" />
     </list>
@@ -83,7 +91,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.profiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -98,7 +106,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="monitor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="monitor" TARGET_NAME="monitor" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/build/monitor">
+    <configuration name="monitor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="monitor" TARGET_NAME="monitor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="monitor" RUN_TARGET_NAME="monitor">
+      <envs>
+        <env name="TERM" value="xterm" />
+      </envs>
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -116,7 +127,9 @@
       <updated>1565999875597</updated>
       <workItem from="1565999878765" duration="10175000" />
       <workItem from="1566024780932" duration="2225000" />
-      <workItem from="1566027021356" duration="24224000" />
+      <workItem from="1566027021356" duration="37732000" />
+      <workItem from="1566135291580" duration="42205000" />
+      <workItem from="1566505310301" duration="169000" />
     </task>
     <task id="LOCAL-00001" summary="fix some warnings">
       <created>1566070957487</created>
@@ -132,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566079439362</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CPU utilization real time">
+      <created>1566085432244</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566085432244</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +176,17 @@
     <MESSAGE value="adding cpu info and utility class" />
     <MESSAGE value="fix some warnings" />
     <MESSAGE value="CPU utilization" />
-    <option name="LAST_COMMIT_MESSAGE" value="CPU utilization" />
+    <MESSAGE value="CPU utilization real time" />
+    <MESSAGE value="everything is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="everything is working" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="sum" language="ObjectiveC" />
+        <watch expression="processes.size()" language="ObjectiveC" />
+        <watch expression="string s; getline(stream,s)" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
